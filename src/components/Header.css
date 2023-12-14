@@ -1,0 +1,24 @@
+#root{
+  margin: 10rem;
+}
+header {
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  height: 50rem;
+  color: white;
+  /* position:fixed; */
+  /* left: 0%;
+  right: 0%; */
+  
+}
+
+header h1 {
+  /* min-height: 100vh;  */
+  font-size: 200px;
+}
+
+header h2 {
+  font-size: 100px;
+}
+
