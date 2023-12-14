@@ -18,7 +18,6 @@ const TodoList = () => {
     setTasks(updatedTasks);
   };
 
-  
   return (
     <div>
       <h2>Todo List</h2>
