@@ -21,14 +21,6 @@ const TodoList = () => {
   return (
     <div>
       <h2>Todo List</h2>
-      <ul>
-        {tasks.map((task, index) => (
-          <li key={index}>
-            {task}
-            <button onClick={() => removeTask(index)}>Remove</button>
-          </li>
-        ))}
-      </ul>
       <div>
         <input
           type="text"
@@ -38,6 +30,14 @@ const TodoList = () => {
         <br/>
         <button onClick={addTask}>Add Task</button>
       </div>
+      <ul>
+        {tasks.map((task, index) => (
+          <li key={index}>
+            {task}
+            <button onClick={() => removeTask(index)}>Remove</button>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
